@@ -1,0 +1,30 @@
+{
+    "name": "es-react-ts-boilerplate",
+    "version": "1.0.0",
+    "description": "react ts boilerplate",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/song111/es-react-ts-boilerplate.git"
+    },
+    "keywords": [
+        "react",
+        "typescript",
+        "boilerplate"
+    ],
+    "author": {
+        "name": "Chris Song",
+        "email": "1352411860@qq.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/song111/es-react-ts-boilerplate/issues"
+    },
+    "homepage": "https://github.com/song111/es-react-ts-boilerplate#readme",
+    "devDependencies": {
+        "webpack": "^4.43.0"
+    }
+}
