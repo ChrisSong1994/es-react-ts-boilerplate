@@ -18,7 +18,7 @@ async function start() {
                let openAddress = ENABLE_OPEN as string;
   if (ENABLE_OPEN === true) {
             openAddress = address;
-            let publicPath = devConfig.output?.publicPath;
+            let publicPath = devConfig.output!.publicPath;
             // 未设置和空串都视为根路径
             publicPath = publicPath == null || publicPath === '' ? '/' : publicPath;
             if (publicPath !== '/') {
