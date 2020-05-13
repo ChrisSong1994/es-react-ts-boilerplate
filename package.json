@@ -4,10 +4,11 @@
     "description": "react ts boilerplate",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "start": "cross-env-shell NODE_ENV=development ts-node --files -P scripts/tsconfig.json scripts/start.ts --open",
         "build": "cross-env-shell NODE_ENV=production ts-node --files -P scripts/tsconfig.json scripts/build",
-        "build-analyze": "yarn build --analyze"
+        "build-analyze": "yarn build --analyze",
+        "lint": "eslint -c .eslintrc.js --ext .ts,.tsx,.js {src,scripts}/**/*.{ts,tsx}",
+        "test": "echo 'skip test...'"
     },
     "repository": {
         "type": "git",

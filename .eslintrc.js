@@ -35,7 +35,7 @@ module.exports = {
         sourceType: "module"
     },
     plugins: ["react", "@typescript-eslint"],
-    setting: {
+    settings: {
         "import/resolver": {
             node: {
                 // import 模块时，不写后缀将尝试导入的后缀，出现频率高的文件类型放前面
